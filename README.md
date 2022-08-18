@@ -13,3 +13,7 @@ Here are some patches to dwmblocks that add features that I either don't want to
 I do not maintain these but I will take pull requests to update them.
 <br>
 <a href=https://gist.github.com/IGeraGera/e4a5583b91b3eec2e81fdceb44dea717>dwmblocks-statuscmd-b6b0be4.diff</a>
+<br>
+# Preview
+![ArcoLinux_2022-08-18_17-49-36](https://user-images.githubusercontent.com/101618848/185377898-620b5197-6a54-46d9-933b-3586dd69fc6e.png)
+You can find a list of all my scripts on my dotfiles/Scripts repo.
