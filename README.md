@@ -16,4 +16,5 @@ I do not maintain these but I will take pull requests to update them.
 <br>
 # Preview
 ![ArcoLinux_2022-08-18_17-49-36](https://user-images.githubusercontent.com/101618848/185377898-620b5197-6a54-46d9-933b-3586dd69fc6e.png)
+<br>
 You can find a list of all my scripts on my dotfiles/Scripts repo.
