@@ -5,7 +5,9 @@ static const Block blocks[] = {
 	{" ", "~/Scripts/kernel", 	 360,		 2},
 	{"  ", "~/Scripts/cpu.sh", 	 15,		 0},
 	{" ", "free -h | awk '/^Mem:/ {print $3\"/\"$2}' | sed s/i//g",	30,		1},
-	{"", "~/Scripts/battery.sh",	30,		0},
+	{"", "~/Scripts/temp.sh",	60,		0},
+	{"", "~/Scripts/netspeed.sh",	1,		1},
+	{"", "~/Scripts/battery.sh",	15,		0},
 	{"", "~/Scripts/clock",					5,		0},
 };
 
