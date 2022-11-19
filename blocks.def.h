@@ -3,6 +3,8 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", "~/Scripts/kernel", 	 360,		 2},
+	{"", "~/Scripts/openweather-simple.sh", 	 1800,		 5},
+	{"", "~/Scripts/record.sh",					1,		5},
 	{"", "~/Scripts/cpu.sh", 	 15,		 0},
 	{" ", "free -h | awk '/^Mem:/ {print $3\"/\"$2}' | sed s/i//g",	30,		1},
 	{"", "~/Scripts/temp.sh",	60,		0},
@@ -12,7 +14,6 @@ static const Block blocks[] = {
 	{"", "~/Scripts/netspeed.sh",	1,		1},
 	{"", "~/Scripts/battery.sh",	5,		3},
 	{"", "~/Scripts/clock",					60,		1},
-	{"", "~/Scripts/record.sh",					1,		5}
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
